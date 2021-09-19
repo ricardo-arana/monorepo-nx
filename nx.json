@@ -27,12 +27,22 @@
     ]
   },
   "projects": {
-    "my": {
+    "administration": {
+      "tags": []
+    },
+    "administration-e2e": {
+      "tags": [],
+      "implicitDependencies": ["administration"]
+    },
+    "home": {
       "tags": []
     },
     "my-e2e": {
       "tags": [],
-      "implicitDependencies": ["my"]
+      "implicitDependencies": ["home"]
+    },
+    "shared": {
+      "tags": []
     }
   }
 }
